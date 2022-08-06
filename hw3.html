@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+    <title>HTML Form Exercise</title>
+</head>
+
+<body>
+    <form action="form-echo.php" method="get">
+    <h1>เข้าสู่ระบบ</h1>
+    <table>
+        <tr>
+            <td>Username</td>
+            <td><input type="text" name="text" autofocus required></td>
+
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="password" name="password" required></td>
+        </tr>
+        <tr>
+            <td colspan="2">กรุณาพิมพ์ตามตัวเลขที่ปรากฏ: <br>1559<br><input type="text" name="check" pattern="[1][5][5][9]" required></td>
+        </tr>
+    </table>
+    <button><input type="image" src="login1.jpg" formaction="hw3.1.html" width="70" height="70"></button>
+</form>
+</form>
+</body>
+
+</html>
